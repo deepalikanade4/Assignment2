@@ -1,8 +1,8 @@
 Department,Username,Project
 research_and_development,martin,asset_managment
 dev_ops,josh,database_manager
-dev_ops,martin,asset_managment
+TESTING,martin,asset_managment
 research_and_development,josh,
-dev_ops,martin,database_manager
-research_and_development,,database_manager
+IT,martin,database_manager
+HR,,database_manager
 ,josh,database_manager

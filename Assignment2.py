@@ -1,4 +1,3 @@
-
 # COMMAND TO RUN= python Assignment2.py 'C:\Users\Readchilly_task\Department_data.csv'
 #  "C:\Users\Readchilly_task\Destination_folder" 
 # Please change path accordingly for csv file and destination folder
@@ -13,7 +12,7 @@ class MakeFolder:
     # method 'generate_path_Dir' to read csv file then generate path and make directory 
     # for all path at location provided as destination path
 
-    def generate_path_Dir(csvfile,destpath):        
+    def generate_path_Dir(self,csvfile,destpath):        
 
         try:
                 
@@ -48,6 +47,7 @@ if __name__=='__main__':
     
     # crating object of class and calling function 
     makefolder=MakeFolder()
+    print(args.csv_file)
     makefolder.generate_path_Dir(args.csv_file,args.dest_path)
 
 
