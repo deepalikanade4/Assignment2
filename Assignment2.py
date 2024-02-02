@@ -1,6 +1,6 @@
-# COMMAND TO RUN= python Assignment2.py 'C:\Users\Readchilly_task\Department_data.csv'
-#  "C:\Users\Readchilly_task\Destination_folder" 
-# Please change path accordingly for csv file and destination folder
+#  COMMAND TO RUN= python Assignment2.py --csv_file 'C:\Users\Readchilly_task\Assignment2\Department_data.csv' --dest_path
+#  'C:\Users\Readchilly_task\Assignment2\Destination_folder\'
+# Please replace path accordingly for csv file and destination folder
 
 import argparse         #for reading input from cmdline
 import csv              # Required To Read csv file
